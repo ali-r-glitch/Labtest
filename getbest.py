@@ -5,14 +5,13 @@ import sys
 def getCols(f):
     ''' Identify the columns that contain the marks and student numbers '''
     headings = f.readline().strip().split(",")
-    i=2
+    i=0
+    num_col=-1
+    mark_col=-1
     for head in headings:
-        if head == "Student Number": 
-                num_col=i
-                mark_col=i+1
-        elif head == "Mark" : 
-                  mark_col = i
-                  num_col=i-1
+        if head == "Student Number":num_col=i
+        elif head == "Mark" :mark_col=i
+        i+=1
     return (num_col, mark_col)
 
 def findTop(f,num_col, mark_col):

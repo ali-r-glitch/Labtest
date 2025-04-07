@@ -1,2 +1,16 @@
 ALI RAFFEE
-There were two errors originally in the code. Firstly the student number was not displayed. This was fixed by simply tracking the student number. The second issue was there was a mixup of the mark and the student number being displayed.
+
+Errors and fixes
+There were two errors originally in the code. Firstly the student number was not displayed. This was fixed by simply 
+tracking the student number. Adding a variable that had the name and would set it as a pair with the highest mark.
+The second issue was there was a mixup of the mark and the student number being displayed.This was fixed by altering 
+how the columns are defined/set as. The index was altered to set them as seperate columns by adding an increment to 
+the loop. 
+
+Code functionality
+This code searches through a textfile that has headings "Marks" and "Student Number". It will then find the highest
+mark and output the student number and mark.
+
+Technical
+It gets the seperates columns based on the name "Marks" and "Student Number". It then compares the values of the marks
+and finds the highest value.
