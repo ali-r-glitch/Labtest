@@ -1,1 +1,2 @@
 ALI RAFFEE
+There were two errors originally in the code. Firstly the student number was not displayed. This was fixed by simply tracking the student number. The second issue was there was a mixup of the mark and the student number being displayed.
